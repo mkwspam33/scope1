@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_stry50575725.scwf1</api_name>
+        <caller_access/>
+        <claim/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>scwf1</name>
+        <script><![CDATA[var scwf1 = Class.create();
+scwf1.prototype = {
+    initialize: function() {
+    },
+
+    type: 'scwf1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-15 15:28:09</sys_created_on>
+        <sys_id>cb7c722677560010ca3ab5b2681061ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scwf1</sys_name>
+        <sys_package display_value="stry50575725" source="sn_stry50575725">2ee63eee77160010ca3ab5b26810616f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="stry50575725">2ee63eee77160010ca3ab5b26810616f</sys_scope>
+        <sys_update_name>sys_script_include_cb7c722677560010ca3ab5b2681061ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-15 15:28:09</sys_updated_on>
+    </sys_script_include>
+</record_update>
