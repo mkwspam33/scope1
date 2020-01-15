@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_stry50575725.sc2</api_name>
+        <caller_access/>
+        <claim/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>sc2</name>
+        <script><![CDATA[var sc2 = Class.create();
+sc2.prototype = {
+    initialize: function() {
+    },
+
+    type: 'sc2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-15 15:08:33</sys_created_on>
+        <sys_id>6108b26277560010ca3ab5b2681061a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sc2</sys_name>
+        <sys_package display_value="stry50575725" source="sn_stry50575725">2ee63eee77160010ca3ab5b26810616f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="stry50575725">2ee63eee77160010ca3ab5b26810616f</sys_scope>
+        <sys_update_name>sys_script_include_6108b26277560010ca3ab5b2681061a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-15 15:08:33</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="stry50575725">2ee63eee77160010ca3ab5b26810616f</application>
+        <file_path/>
+        <instance_id>evosandbox8080</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_script_include_6108b26277560010ca3ab5b2681061a1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;sn_stry50575725.sc2&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;claim/&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;sc2&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var sc2 = Class.create();
+sc2.prototype = {
+    initialize: function() {
+    },
+
+    type: 'sc2'
+};]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-01-15 15:08:33&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6108b26277560010ca3ab5b2681061a1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;sc2&lt;/sys_name&gt;
+        &lt;sys_package display_value="stry50575725" source="sn_stry50575725"&gt;2ee63eee77160010ca3ab5b26810616f&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="stry50575725"&gt;2ee63eee77160010ca3ab5b26810616f&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_6108b26277560010ca3ab5b2681061a1&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-01-15 15:08:33&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1294740689</payload_hash>
+        <record_name>sc2</record_name>
+        <reverted_from/>
+        <source>b62b3ea277560010ca3ab5b268106108</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-15 15:22:19</sys_created_on>
+        <sys_id>1f2b3ea277560010ca3ab5b268106132</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fa9cc5a5a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-15 15:22:19</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>9b2b3ea2ff5600106b77dbff5e6e6432</update_guid>
+        <update_guid_history>9b2b3ea2ff5600106b77dbff5e6e6432:0,a908b2622f560010303694e923cea4a4:-2117648937</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <claim/>
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-15 15:22:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>25d24d999787417687be615b6e03cf81</sys_id>
+        <sys_metadata>6108b26277560010ca3ab5b2681061a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sc2</sys_name>
+        <sys_package display_value="stry50575725" source="sn_stry50575725">2ee63eee77160010ca3ab5b26810616f</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="stry50575725">2ee63eee77160010ca3ab5b26810616f</sys_scope>
+        <sys_scope_delete display_value="">1a3d9ea6055e4ffd94d384880decd401</sys_scope_delete>
+        <sys_update_name>sys_script_include_6108b26277560010ca3ab5b2681061a1</sys_update_name>
+        <sys_update_version display_value="sys_script_include_6108b26277560010ca3ab5b2681061a1">1f2b3ea277560010ca3ab5b268106132</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-15 15:22:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
